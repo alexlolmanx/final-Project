@@ -1,0 +1,56 @@
+section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+
+  margin: auto;
+  margin-bottom: 10%;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  width: 150%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 3%;
+}
+aside {
+  margin-right: 10%;
+  width: 50%;
+}
+.info {
+  display: flex;
+}
+
+aside li {
+  margin: 3%;
+}
+h1 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+button {
+  border-radius: 99px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}

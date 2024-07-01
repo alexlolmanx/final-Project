@@ -1,0 +1,51 @@
+.fd {
+  background-color: rgba(128, 128, 128, 0.426);
+  width: 90%;
+  height: 2px;
+  border-radius: 99px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  margin: 6%;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+section {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15%;
+}
+
+h3 {
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+  font-size: x-large;
+  margin-bottom: 2%;
+}
+
+section p {
+  margin-bottom: 4%;
+}
+section img {
+  object-fit: cover;
+  width: 50%;
+  height: 70vh;
+}
+section .container {
+  width: 40%;
+  height: 100%;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

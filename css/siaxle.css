@@ -1,0 +1,43 @@
+img {
+  margin: auto;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.main {
+  position: relative;
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+.main div {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: xxx-large;
+  height: 25%;
+}
+
+.main div h1,
+h3 {
+  -webkit-text-stroke: 2px #000000;
+}
+
+.main button {
+  border-radius: 99px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: large;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}

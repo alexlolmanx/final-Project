@@ -1,0 +1,68 @@
+.fa-music {
+  font-size: x-large;
+}
+
+.container img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.container {
+  position: relative;
+}
+.container div {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-size: xx-large;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: xxx-large;
+  margin: 6%;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+.card img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20%;
+  flex-wrap: wrap;
+}
+.cards h5 {
+  font-size: x-large;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h3 {
+  text-align: center;
+  margin: 12%;
+  font-size: xxx-large;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 99px;
+  padding: 2% 5% 2% 5%;
+  margin: 5% 0 5% 0;
+}
+button:hover {
+  background-color: rgba(128, 128, 128, 0.218);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

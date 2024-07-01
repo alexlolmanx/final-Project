@@ -1,0 +1,31 @@
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
+.cards {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-size: xxx-large;
+  font-family: "KA_LORTKIPANIDZE", sans-serif;
+}
+.ist {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+footer {
+  margin-top: 10%;
+}
